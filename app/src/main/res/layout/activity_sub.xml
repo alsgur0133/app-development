@@ -7,8 +7,8 @@
     tools:context=".SubActivity">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="prev"
-        android:id="@+id/btn_prev"/>
-</android.support.constraint.ConstraintLayout>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="prev"
+    android:id="@+id/btn_prev"/>
+    </android.support.constraint.ConstraintLayout>
