@@ -81,5 +81,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         } );
-        }
+        Button btn_food;
+        btn_food = (Button) findViewById(R.id.btn_food);
+        btn_food.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, SubActivity.class);
+
+                    intent = new Intent(
+                            intent.ACTION_VIEW,
+                            Uri.parse("http://hi.nhis.or.kr/bj/ggpbj002/ggpbj002_m04.do"));
+                    startActivity(intent);
+                }
+        });
+        }   
         }
